@@ -1,0 +1,18 @@
+
+
+In importing a built in module,you don't use ('./') instead ("os") so node knows you are looking for a built in module
+a path module allows u to interact with file paths easily
+        methods/Property in path module
+A seperator is a property that returns a platform specicfic seperator it's syntax is (path.sep)
+the join method is a method that joins a sequence of paths segments using that platform specific separator as the limiter
+to access the last path in a file path , you use (.basename)
+to access the absolute path use (.resolve) :i.e it accepts a sequence of path/path segment and resolves it into an absolute path
+
+
+To create a new file you can use the writeFileSync method /eg/ 
+writeFileSync(
+    './content/result-sync.txt',
+     `Here is the result : ${first}, ${second}`
+    )
+note if the file is not there node will automatically create one
+     if the file is there node by default will overwrite them   

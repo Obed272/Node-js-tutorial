@@ -1,0 +1,8 @@
+        types of Built-in-modules
+OS: It provide useful methods for interacting with operating System
+as well as the server
+PATH: THis module allows us to interact with file path easily
+File System: It allows us to interact with file System directly
+Http modules
+        OS properties
+.type, .release, .totalMem, freeMem
