@@ -6,3 +6,15 @@ File System: It allows us to interact with file System directly
 Http modules
         OS properties
 .type, .release, .totalMem, freeMem
+
+To run nodemon 
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+and run npm start and npm run dev
+                or
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+  now run npm start
